@@ -4,7 +4,7 @@ Ask a question about your data in plain English, get back a real SQL query, and 
 
 ## What it does
 
-1. Upload a CSV.
+
 2. Pandas reads it and loads it into an in-memory SQLite table.
 3. The table's schema (column names + dtypes) is extracted automatically.
 4. You type a question like "top 5 by revenue." An LLM (Groq, GPT-OSS 120B) is given the schema and the question, and returns SQL as structured JSON.
